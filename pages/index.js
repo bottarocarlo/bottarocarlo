@@ -1,10 +1,11 @@
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import  {Header} from "../components/Header.js";
 
 export default function Home() {
   return (
     <div>
-      <h1 className="text-3xl  font-bold text-center py-10">Hi there, I&apos;m Carlo! 👋 </h1>
+      <Header/>
+      <h1 className="text-3xl font-mono text-left">Hi!👋</h1>
+      <h2 className=" font-mono text left">I'm Carlo</h2>
     </div>
   );
 }
