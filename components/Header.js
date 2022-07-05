@@ -5,7 +5,7 @@ export const Header = () => {
     <>
       <nav className='flex flex-row items-center p-3 '>   
         <div className='w-full justify-center item-center'>
-          <div className=' flex-row lg:ml-auto w-full items-center justify-center flex lg:h-auto text-gray-600'>
+          <div className=' flex-row lg:ml-auto w-full items-center justify-center flex lg:h-auto'>
             <Link href='/'>
               <a className='   px-3 py-2 rounded font-medium items-center justify-center text-xl'>
                 Home
