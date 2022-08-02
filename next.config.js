@@ -1,20 +1,7 @@
-// next.config.js
-const withPlugins = require('next-compose-plugins');
-const optimizedImages = require('next-optimized-images');
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+}
 
-module.exports =
-  withPlugins([
-    [optimizedImages, {
-      /* config for next-optimized-images */
-      optimizeImagesInDev: true,
-      handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
-    }], 
-    // Global config
-    {
-      images: {
-        // To fix issue with file paths
-        disableStaticImages: true,
-      }
-    }
-  ]);
-
+module.exports = nextConfig
