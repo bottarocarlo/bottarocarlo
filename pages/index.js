@@ -19,7 +19,7 @@ export default function Home() {
         objectFit="cover"
       />
       <Text fontSize="28" textAlign={[ 'center' ]} fontWeight="bold">
-      Hi there, I'm Carlo
+      Hi there, Im Carlo
       </Text>
       <Text>
        
