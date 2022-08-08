@@ -1,29 +1,24 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Center, Flex } from "@chakra-ui/react";
 import Image from "next/image";
-import { Text } from "@chakra-ui/react"
-
-const sanityIoImageLoader = ({ src, width, quality }) => {
-  return `https://pressappoco.it/mappa.svg`;
-};
+import { Text } from "@chakra-ui/react";
+import waving from "../images/waving.png";
+import memoji from "../images/memoji.jpeg";
+import Head from "next/head";
+import { Divider, Stack } from "@chakra-ui/react";
+import Header from "../components/Header";
+import Description from "../components/Description";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <Box>
-      <Image
-        loader={sanityIoImageLoader}
-        src="image-src"
-        alt="bg"
-        width={600}
-        height={600}
-        layout="fill"
-        objectFit="cover"
-      />
-      <Text fontSize="28" textAlign={[ 'center' ]} fontWeight="bold">
-      Hi there, I'm Carlo
-      </Text>
-      <Text>
-       
-      </Text>
-    </Box>
+    <div>
+      <Head>
+        <title>Carlo Bottaro</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <Header />
+      <Description />
+
+    </div>
   );
 }
