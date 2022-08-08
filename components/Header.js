@@ -23,7 +23,13 @@ export default function Header() {
         Hi there, I&apos;m Carlo Bottaro!
       </Highlight>
 
-      <Image loader={sanityIoImageLoader} width={30} height={30} />
+      <Image
+        loader={sanityIoImageLoader}
+        width={30}
+        height={30}
+        src="image-src"
+        alt="carlo"
+      />
     </Heading>
   );
 }
