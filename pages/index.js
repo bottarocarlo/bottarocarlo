@@ -10,7 +10,7 @@ import Description from "../components/Description";
 import Footer from "../components/Footer";
 
 export default function Home() {
-  return (
+  return(
     <div>
       <Head>
         <title>Carlo Bottaro</title>
@@ -18,7 +18,6 @@ export default function Home() {
       </Head>
       <Header />
       <Description />
-
     </div>
   );
 }
