@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <Heading
       lineHeight="tall"
-      mt={50}
+      mt="78px"
       ml={30}
       mr={30}
       fontSize="30"
@@ -18,7 +18,7 @@ export default function Header() {
     >
       <Highlight
         query={["Carlo", "Bottaro"]}
-        styles={{ px: "2", py: "2", fontFamily: "Monospace", p: "4px" }}
+        styles={{ px: "2", py: "2", fontFamily: "Monospace", p: "4px" , bg:"white"}}
       >
         Hi there, I&apos;m Carlo Bottaro!
       </Highlight>
@@ -28,6 +28,8 @@ export default function Header() {
         width={30}
         height={30}
         src="image-src"
+        unoptimized={true}
+
         alt="carlo"
       />
     </Heading>
