@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Header from "../components/Header";
-import Description from "../components/Description";
+import Content from "../components/Content";
 import Footer from "../components/Footer";
 import { Box, Flex, Spacer, Text } from "@chakra-ui/react";
 import { useColorMode } from "@chakra-ui/color-mode";
@@ -25,8 +24,7 @@ export default function Home() {
       >
         {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
       </IconButton>
-      <Header />
-      <Description />
+      <Content />
       <Spacer />
       <Footer />
     </Flex>

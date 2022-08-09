@@ -23,25 +23,25 @@ export default function Footer() {
           <ButtonGroup variant="ghost">
             <IconButton
               as="a"
-              href="#"
+              href="www.linkedin.com/in/bottarocarlo<"
               aria-label="LinkedIn"
               icon={<FaLinkedin fontSize= '1.5rem' />}
             />
             <IconButton
               as="a"
-              href="#"
+              href="https://github.com/bottarocarlo"
               aria-label="GitHub"
               icon={<FaGithub fontSize="1.5rem" />}
             />
             <IconButton
               as="a"
-              href="#"
+              href="https://twitter.com/bottarlo"
               aria-label="Twitter"
               icon={<FaTwitter fontSize="1.5rem" />}
             />
             <IconButton
               as="a"
-              href="#"
+              href="https://www.instagram.com/carlo_bottaro/"
               aria-label="Instagram"
               icon={<FaInstagram fontSize="1.5rem" />}
             />
