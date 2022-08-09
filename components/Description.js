@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Text } from "@chakra-ui/react";
 
 const sanityIoImageLoader = ({ src, width, quality }) => {
-  return `https://i.imgur.com/sbxOmG5.jpeg`;
+  return `https://i.imgur.com/DExzkID.png`;
 };
 
 export default function Description() {
@@ -16,8 +16,6 @@ export default function Description() {
         height={25}
         src="image-src"
         alt="waving"
-        unoptimized={true}
-
       />
     </Text>
   );

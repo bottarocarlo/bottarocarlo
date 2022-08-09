@@ -28,8 +28,6 @@ export default function Header() {
         width={30}
         height={30}
         src="image-src"
-        unoptimized={true}
-
         alt="carlo"
       />
     </Heading>
