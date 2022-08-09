@@ -23,7 +23,7 @@ export default function Footer() {
           <ButtonGroup variant="ghost">
             <IconButton
               as="a"
-              href="www.linkedin.com/in/bottarocarlo<"
+              href="https://linkedin.com/in/bottarocarlo<"
               aria-label="LinkedIn"
               icon={<FaLinkedin fontSize= '1.5rem' />}
             />
