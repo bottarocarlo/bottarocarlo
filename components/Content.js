@@ -1,5 +1,14 @@
 import Image from "next/image";
-import { Highlight, Heading, Text, Container, Stack } from "@chakra-ui/react";
+import {
+  Highlight,
+  Heading,
+  Text,
+  Container,
+  Stack,
+  Button,
+  Spacer,
+} from "@chakra-ui/react";
+import { EmailIcon } from "@chakra-ui/icons";
 
 const wavingemoji = ({ src, width, quality }) => {
   return `https://i.imgur.com/Pk7uuyH.png`;
@@ -11,7 +20,7 @@ const carlomemoji = ({ src, width, quality }) => {
 
 export default function Content() {
   return (
-    <Stack ml={30} mr={30} alignItems="center">
+    <Stack ml={30} mr={30}  pos="fixed">
       <Heading lineHeight="tall" mt="90px" fontSize="30" fontWeight="thin">
         <Highlight
           query={["Carlo", "Bottaro"]}
@@ -42,7 +51,18 @@ export default function Content() {
           src="image-src"
           alt="carlo"
         />
+        <br /> I'm passionate in software engineer.
       </Text>
+      <Spacer />
+
+      <Button
+        as="a"
+        width="150px"
+        leftIcon={<EmailIcon />}
+        href="mailto:carlo.bottaro@studenti.unitn.it"
+      >
+        contact me
+      </Button>
     </Stack>
   );
 }
