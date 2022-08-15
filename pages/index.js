@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import { Box, Flex, Spacer, Text } from "@chakra-ui/react";
 import { useColorMode } from "@chakra-ui/color-mode";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
-import { IconButton } from "@chakra-ui/button";
+import { Button } from "@chakra-ui/button";
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -15,15 +15,15 @@ export default function Home() {
         <title>Carlo Bottaro</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <IconButton
-        mt={4}
-        aria-label="Toggle Mode"
+      <Button
+        mt={5}
         onClick={toggleColorMode}
-        pos="fixed"
-        right="30px"
+        w={20}
+        right="5"
+        pos="absolute"
       >
         {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-      </IconButton>
+      </Button>
       <Content />
       <Spacer />
       <Footer />

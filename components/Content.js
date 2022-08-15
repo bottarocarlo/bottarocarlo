@@ -20,7 +20,7 @@ const carlomemoji = ({ src, width, quality }) => {
 
 export default function Content() {
   return (
-    <Stack ml={30} mr={30}  pos="fixed">
+    <Stack ml={30} mr={30}>
       <Heading lineHeight="tall" mt="90px" fontSize="30" fontWeight="thin">
         <Highlight
           query={["Carlo", "Bottaro"]}
