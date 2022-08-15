@@ -51,7 +51,7 @@ export default function Content() {
           src="image-src"
           alt="carlo"
         />
-        <br /> I'm passionate in software engineer.
+        <br /> I&apos;m passionate in software engineer.
       </Text>
       <Spacer />
 
