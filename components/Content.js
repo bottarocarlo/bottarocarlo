@@ -43,7 +43,7 @@ export default function Content() {
         />
       </Heading>
       <Text fontSize={20} ml={30} mt={50} mr={30}>
-        I&apos;m a computer science engineer student at UniTn.
+        I&apos;m a MSc Student in Computer Engineering | Cybersecurity at PoliTo.
         <Image
           loader={carlomemoji}
           width={25}
@@ -51,7 +51,7 @@ export default function Content() {
           src="image-src"
           alt="carlo"
         />
-        <br /> I&apos;m passionate in software engineer.
+        <br /> I&apos;m passionate in Software Engineer and Cybersecurity enthusiast.
       </Text>
       <Spacer />
 
