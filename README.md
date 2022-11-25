@@ -1,4 +1,6 @@
-<p align="center"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/325/man-technologist_1f468-200d-1f4bb.png" width="100"/></p>
+
+
+<h1 align="center">hey there, I'm Carlo <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40"></h1>
 <p align="center">
 <a href="https://www.linkedin.com/in/bottarocarlo"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
   <a href="mailto:bottarocarloo@gmail.com">
@@ -8,9 +10,6 @@
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="t.me"/>
   </a>
 </p>
-
-<h1 align="center">hey there, I'm Carlo <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40"></h1>
-
 
 ### :man_technologist: &nbsp;About Me :
 
