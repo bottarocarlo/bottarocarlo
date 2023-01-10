@@ -15,10 +15,6 @@
 
 I am a MSc student in computer science engineering, cybersecurity @PoliTo.
 
-- 🔭 I’m a Cybersecurity enthusiast 
-- 🌱 Exploring Technical Content Writing.
-- ⚡ In my free time I read tech articles.
-
 
 ---
 
